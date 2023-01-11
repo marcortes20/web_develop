@@ -1,0 +1,48 @@
+body{
+background-color:aqua;
+
+}
+
+.box{
+
+    background-color:white;
+    border-style: solid;
+    border-width: 1px;
+    border-top: solid  0px;
+    border-color: black;
+   
+
+
+}
+
+.header{
+    padding: 10px;
+}
+
+
+
+.contend{
+    padding: 10px;
+    border-top: solid 1px;
+
+}
+
+
+.footer{
+    padding: 10px;
+    border-top: solid 1px black;
+  
+}
+
+#allow{
+    background-color:deepskyblue;
+    padding: 5px;
+    border: 0px;
+}
+
+#deny{
+
+    background-color:beige;
+    padding: 5px;
+    border: 0px;
+}
