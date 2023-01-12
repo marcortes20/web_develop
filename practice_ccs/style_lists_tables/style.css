@@ -1,0 +1,82 @@
+body{
+
+background-color: antiquewhite;
+
+}
+
+ul{
+    list-style-type: none;
+    background-color: white;
+    border: solid 1px blue;
+    border-radius: 4px;
+    padding-left: 0px;
+
+}
+
+li{
+border-bottom: solid 1px blue;
+padding: 15px;
+
+}
+
+table{
+    background-color: white;
+    width: 100%;
+    /* se usa para eliminar las lineas entre segmentos de la tabla */
+    border-collapse: collapse;
+}
+
+tr:nth-child(even){
+    background-color: #f2f2f2;
+}
+
+td{
+    padding-top: 5px;
+    padding-bottom: 5px ;
+}
+
+table th{
+    background-color: green;
+    color: white;
+    text-align: left;
+    padding-top: 12px;
+    padding-bottom: 12px;
+
+}
+
+.navegation_bar{
+    border: solid 1px black;
+    list-style-type: none;
+    margin: 0px;
+    padding: 0px;
+    overflow: hidden;
+    position: fixed;
+    top: 0px;
+    left: 0px;
+    width: 100%;
+    background-color: #333;
+}
+
+.navegation_bar li{
+    float: left;
+    border-bottom: black;
+    padding: 0px;
+    
+
+
+}
+
+.navegation_bar li a{
+    display: block;
+    color: white;
+    padding: 14px;
+    text-decoration: none;
+   
+}
+
+.navegation_bar li :hover{
+    background-color: rgba(0, 0, 0, 0.3);
+}
+#home{
+    background-color: greenyellow;
+}
